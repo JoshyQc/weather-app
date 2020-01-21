@@ -11,6 +11,10 @@ import {
     WINDY,
 } from './../../constants/weathers';
 
+const location = "Guatemala, gt"
+const api_key = ""
+const url_base_weather = ""
+
 const data = {
     temperature: 5,
     weatherState: SUN,
@@ -19,10 +23,10 @@ const data = {
 }
 
 const data2 = {
-    temperature: 5,
+    temperature: 14,
     weatherState: RAIN,
-    huminity: 10,
-    wind: '10 m/s',
+    huminity: 18,
+    wind: '25 m/s',
 }
 
 class WeatherLocation extends Component {
